@@ -1,7 +1,6 @@
 {
   "name": "wealth-management-app",
   "description": "Build a full-stack web application with Next.js.",
-  "packageManager": "yarn@1.22.22",
   "cloudflare": {
     "label": "Next.js Framework Starter",
     "products": [
