@@ -19,7 +19,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "opennextjs-cloudflare build && wrangler deploy",
+    "check": "opennextjs-cloudflare build && tsc && wrangler deploy --dry-run",
+    "preview": "opennextjs-cloudflare build && wrangler dev",
+    "types": "wrangler types --env-interface CloudflareEnv env.d.ts"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",
@@ -77,6 +81,8 @@
     "crypto": "latest"
   },
   "devDependencies": {
+    "@opennextjs/cloudflare": "0.6.6",
+    "wrangler": "4.7.0",
     "@types/node": "^22",
     "@types/react": "^19",
     "@types/react-dom": "^19",
