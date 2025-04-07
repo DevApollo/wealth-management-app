@@ -1,6 +1,6 @@
 # Next.js Framework Starter
 
-[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/cloudflare/templates/tree/main/wealth-management-app)
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/DevApollo/wealth-management-app.git)
 
 <!-- dash-content-start -->
 
